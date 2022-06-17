@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d73947e5e2.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="container"role="navegación">
-        <div class="row">
-            <a href="#" class="col-4" class="btn btn-secondary disabled"  tabindex="-1" role="button" aria-disabled="true"><img src="./img_nav.jpeg" class="img-thumbnail" alt="imagen-nav" width="100"></a>
-            <button type="button" class="btn btn-light col-4">Agendar hora</button>
-            <button type="button" class="btn btn-light col-4">+56 9 61785969</button>
-        </div>
+    <div class="container-boton">
+        <a href="https://wa.me/56961785969"> <img class="boton" src="./whatsapp.png" </img></a>
+
+
+    </div>
+    <div class="container pt-4">
+      <nav class="nav nav-justified">
+          <a class="nav-link active" aria-current="page" href="#"><img src="./img_nav.jpeg" class="img-thumbnail" alt="imagen-nav" width="100"></a>
+          <a class="nav-link shadow p-2 mb-5 bg-body rounded h-25 d-inline-block text-success" href="https://agenda.redsalud.cl/#/patientPortal/identifyPatient">Agendar Hora</a>
+          <a class="nav-link text-success" href="https://wa.me/56961785969"><img src="./whatsapp.png" </img>+56 9 61785969</a>
+        </nav>
     </div>
     <div class="container">
         <div id="carouselExample" class="carousel slide"  data-bs-ride="carousel">
@@ -40,21 +47,22 @@
         </div>    
     </div>
 
-    <div class="container py-5">
+    <!-- <div class="container py-5">
         <div class="row">
             <div class="col-5">
-                        <button type="button" class="btn btn-outline-success mx-5">2 2222 4477</button>
-                        <p class="mx-5 px-3">Telefono</p>
+                        <button type="button" class="btn btn-outline-success mx-5 shadow p-3 mb-5 bg-body rounded">2 2222 4477</button>
+                        <br>
+                        <p class="mx-5 px-3"> <img src="./phone-call.png" alt="icono"> Telefono</p>
             </div>
             <p class="col-2">o</p>
             <div class="col-5">
-                <button type="button" class="btn btn-outline-success mx-5">9 6178 5969</button>
-                <p class="mx-5 px-3">Whatsapp</p>
+                <button type="button" id="btnwp" class="btn btn-outline-success mx-5 shadow p-3 mb-5 bg-body rounded">9 6178 5969</button>
+                <p class="mx-5 px-3 "><img src="./whatsapp.png" alt="iconno"> Whatsapp</p>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <h2 class="text-success">Precios de Ecografías Ginecológicas y Obstétricas</h2>
+    </div> -->
+    <div class="container m-5">
+        <h2 class="text-success text-center">Precios de Ecografías Ginecológicas y Obstétricas</h2>
         <table class="table">
             <thead>
               <tr>
@@ -109,12 +117,13 @@
             <img  src="./ecografia4.jpeg" class="img-thumbnail" alt="....">
         </div>
         <div class="col-9">
-            <p>Correo: contacto@gmail.cl</p>
-            <p>Dirección:  Santiago concha 1148, Santiago centro.</p>
-            <p>Teléfonos: +56 9 6178 5969  -  2 2222 4477</p>
+            <h2>Pagina Realizada por:</h2>
+            <p>Correo: genesisgps@gmail.cl</p>
+            <p>Dirección:  Carmen 644, Santiago centro.</p>
+            <p>Teléfono: +56 9 8657 2962  </p>
+             <p><img src="./instagram1.png" alt="icono">@genesispinto_ </p>
         </div>
     </div>
-
    </div>
     <script src="js/bootstrap.min.js"></script>
   </body>
