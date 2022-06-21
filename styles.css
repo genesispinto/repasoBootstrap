@@ -20,6 +20,18 @@
     width: 30px;
     transition: ease 1s;
 }
+#enlace{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+nav {
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+}
 
 @keyframes efecto{
     0%{
